@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cross Stitch Calculator</title>
+        <link rel="icon" href="./imgs/favicon.ico">
+        <script type="text/javascript" src="./script.js" async></script>
+    </head>
+    <body>
+        <div id="num-stitches">
+            <h2>Number of Stitches Across/Down</h2>
+            <div class="across">
+                <h3>Across</h3>
+                <label for="across-spi">Stiches per inch</label>
+                <input type="number" id="across-spi">
+                <br>
+                <label for="across-inches">Inches</label>
+                <input type="number" id="across-inches">
+                <br>
+                <button class="button1">Calculate</button>
+                <p id="across-output1">Stitches across = 0</p>
+            </div>
+            <div class="down">
+                <h3>Down</h3>
+                <label for="down-spi">Stiches per inch</label>
+                <input type="number" id="down-spi">
+                <br>
+                <label for="down-inches">Inches</label>
+                <input type="number" id="down-inches">
+                <br>
+                <button class="button1">Calculate</button>
+                <p id="down-output1">Stitches down = 0</p>
+            </div>
+        </div>
+        <div id="num-repeats">
+            <h2>Number of Design Repeats that Will Fit</h2>
+            <div class="across">
+                <h3>Across</h3>
+                <label for="across-stitches-available">Total stitches available</label>
+                <input type="number" id="across-stitches-available">
+                <br>
+                <label for="across-stitches-in-design">Stitches in design</label>
+                <input type="number" id="across-stitches-in-design">
+                <br>
+                <button class="button2">Calculate</button>
+                <p id="across-output2">Design repeats across = 0</p>
+            </div>
+            <div class="down">
+                <h3>Down</h3>
+                <label for="down-stitches-available">Total stitches available</label>
+                <input type="number" id="down-stitches-available">
+                <br>
+                <label for="down-stitches-in-design">Stitches in design</label>
+                <input type="number" id="down-stitches-in-design">
+                <br>
+                <button class="button2">Calculate</button>
+                <p id="down-output2">Design repeats down = 0</p>
+            </div>
+        </div>
+        <div id="num-inches">
+            <h2>Number of Inches Needed for Specific Number of Design Repeats</h2>
+            <div class="across">
+                <h3>Across</h3>
+                <label for="across-stitches-in-repeat">Stitches in design repeat</label>
+                <input type="number" id="across-stitches-in-repeat">
+                <br>
+                <label for="across-repeats">Desired repeats</label>
+                <input type="number" id="across-repeats">
+                <br>
+                <label for="across-spi2">Stitches per inch</label>
+                <input type="number" id="across-spi2">
+                <br>
+                <button class="button3">Calculate</button>
+                <p id="across-output3">Inches across = 0</p>
+            </div>
+            <div class="down">
+                <h3>Down</h3>
+                <label for="down-stitches-in-repeat">Stitches in design repeat</label>
+                <input type="number" id="down-stitches-in-repeat">
+                <br>
+                <label for="down-repeats">Desired repeats</label>
+                <input type="number" id="down-repeats">
+                <br>
+                <label for="down-spi2">Stitches per inch</label>
+                <input type="number" id="down-spi2">
+                <br>
+                <button class="button3">Calculate</button>
+                <p id="down-output3">Inches down = 0</p>
+            </div>
+        </div>
+    </body>
+</html>
